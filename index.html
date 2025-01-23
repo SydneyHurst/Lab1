@@ -13,7 +13,7 @@
 <body>
   <h1>HTML Rocks!</h1>
   <p>
-    <button  onclick="helloWorld()">Prints Hello World to the Developer console</button>
+    <button  onclick="helloWorld()">Shows Alert saying Hello World</button>
   </p>
   <hr>
   <form id="addForm">
@@ -26,12 +26,29 @@
     <button type="submit">Add Numbers</button>
   </form>
 
-  <label id="result">Result:</label>
+  <center><label id="result">Result:</label>
 
   <hr>
 
   <button id="jokeButton">Get a Random Joke</button>
-  <p id="joke"></p>
+  <p id="joke"></p></center>
+
+  <!--
+  Your name 
+  When you expect to graduate
+  Do you currently have a job doing web dev?
+  Have you had a job or internship doing web dev?
+  Add  a picture of yourself or an avatar
+  Add in at least 5 new CSS rules to make your site fancy-->
+
+  <ul>
+    <li><b>Name: </b>Sydney Hurst</li>
+    <li><b>Expected Graduation:</b> Sometime next year (depending on classes I can get into and work)</li>
+    <li><b>Current jobs in Web Dev:</b> I do not have a job in Web Dev; but I volunteer for a group where I built them a site!</li>
+    <li><b>Prior jobs in Web Dev:</b> Aside from the specified volunteer work above, no!</li>
+  </ul>
+  <p>Me with one of my cats:</p>
+<center><img src="img\picofself.png" width="50%"></center>
 
   <script type="module" script="js/main.js">
     import {helloWorld, add, fetchRandomJoke} from './js/main.js';

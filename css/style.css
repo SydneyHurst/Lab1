@@ -1,4 +1,38 @@
+body{
+  background-color: #414c64;
+  color: #cecbbc;
+}
+
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  border-color: #cecbbc;
+  border-style: double;
+  text-align:center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+}
+
+form{
+  text-align: center;
+  word-spacing: 10px;
+  line-height: 50px;
+}
+
+ul{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+button{
+  color:#cecbbc;
+  background-color: #20182a;
+  font-size: 14px;
+  border-radius: 9px;
+  border:none;
+  padding:10px;
 }

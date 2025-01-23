@@ -3,7 +3,7 @@
 		"configurations": [
 			{
 				"name": "Debug Website",
-				"type": "chrome",
+				"type": "msedge",
 				"request": "launch",
 				"url": "http://127.0.0.1:3000/"
 			}

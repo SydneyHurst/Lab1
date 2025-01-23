@@ -27,3 +27,8 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+
+## Running the site
+A local server of some type must be used; to view on VSC, use Live Preview, right click the file, and use "show preview".
+
+The Settings.json may need a minor edit to run in your browser when using the debugger. It is currently set to open in Edge.
